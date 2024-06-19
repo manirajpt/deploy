@@ -4,7 +4,7 @@ const PORT=4000
 app.use(express.json());
 
 app.get("/",(req,res)=>{
-    res.send("hii")
+    res.send("hello")
 })
 app.listen(process.env.PORT || PORT, () => {
     console.log("Server is Up and Running");
